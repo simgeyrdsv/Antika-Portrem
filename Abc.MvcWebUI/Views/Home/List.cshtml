@@ -1,0 +1,22 @@
+﻿@using Abc.MvcWebUI.Models;
+@model IEnumerable<Abc.MvcWebUI.Models.ProductModel>
+@{
+    ViewBag.Title = "List";
+}
+<div class="container">
+
+
+    <div class="row">
+
+        <div class="col-md-3 mt-4">
+            @Html.Action("GetCategories","Home")
+        </div>
+
+        <div class="col-md-9">
+
+            @Html.Partial("_ProductList", Model);
+
+        </div>
+    </div>
+
+</div>

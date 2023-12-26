@@ -1,0 +1,47 @@
+.jumbotron
+{
+    background-image:url(/theme/img/bg5.jpg);
+    background-size:cover;
+    height:100%;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+#urunler{
+    margin: 50px;
+}
+
+#write rewiev{
+    margin-left:-50px;
+    
+    
+}
+
+#product-price{
+    font-size: 26px;
+    color: red;
+    
+}
+#card-title{
+    font-size:16px;
+    font-weight:400;
+    color:#484848;
+    line-height:1.35em;
+    height:34px;
+}
+#description{
+    font-size:12px;
+    height:40px;
+}
+#product-price{
+    color:#414141;
+    font-weight:700;
+    font-size:15px;
+}
+
